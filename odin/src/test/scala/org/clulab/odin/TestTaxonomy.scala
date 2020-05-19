@@ -1,6 +1,6 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
-import org.clulab.TestUtils._
+import org.parsertongue.TestUtils._
 import org.scalatest.{ FlatSpec, Matchers }
 
 

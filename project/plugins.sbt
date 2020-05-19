@@ -1,3 +1,15 @@
-addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.0")
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.3")
-addSbtPlugin("com.github.gseitz" % "sbt-release" % "1.0.8")
+// dependency required to silence warning caused by sbt-git:
+//   SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+libraryDependencies += "org.slf4j" % "slf4j-nop" % "1.7.21"
+addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "0.9.3")
+addSbtPlugin("se.marcuslonnberg" % "sbt-docker" % "1.4.1")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.5")
+addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.7.0")
+addSbtPlugin("org.clapper" % "sbt-editsource" % "1.0.0")
+//addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.8.2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.2")
+addSbtPlugin("com.typesafe.sbt" % "sbt-ghpages" % "0.6.2")
+
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.6.7")
+
+addSbtPlugin("com.frugalmechanic" % "fm-sbt-s3-resolver" % "0.16.0")

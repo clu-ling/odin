@@ -1,8 +1,8 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
-import org.clulab.TestUtils._
-import org.clulab.TestUtils.jsonStringToDocument
-import org.scalatest.{FlatSpec, Matchers}
+import org.parsertongue.TestUtils._
+import org.parsertongue.TestUtils.jsonStringToDocument
+import org.scalatest.{ FlatSpec, Matchers }
 
 
 class TestDistributionalSimilarityPatterns extends FlatSpec with Matchers {

@@ -1,10 +1,10 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
-import org.clulab.odin.impl.{OdinCompileException, TokenPattern}
-import org.clulab.struct.Interval
+import org.parsertongue.odin.impl.{ OdinCompileException, TokenPattern }
+import org.parsertongue.struct.Interval
 import org.scalatest._
-import org.clulab.TestUtils.jsonStringToDocument
-import org.clulab.processors.{Document, Sentence}
+import org.parsertongue.TestUtils.jsonStringToDocument
+import org.parsertongue.{ Document, Sentence }
 
 class TestTokenPattern extends FlatSpec with Matchers {
 

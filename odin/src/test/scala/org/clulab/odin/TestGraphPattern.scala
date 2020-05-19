@@ -1,8 +1,8 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
-import org.clulab.TestUtils.jsonStringToDocument
-import org.clulab.odin.impl.{OdinCompileException, OdinException}
-import org.clulab.struct.Interval
+import org.parsertongue.TestUtils.jsonStringToDocument
+import org.parsertongue.odin.impl.{ OdinCompileException, OdinException }
+import org.parsertongue.struct.Interval
 import org.scalatest._
 
 // Tests operating over Universal dependencies

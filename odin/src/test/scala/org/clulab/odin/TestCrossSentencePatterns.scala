@@ -1,8 +1,8 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
 import org.scalatest._
-import org.clulab.TestUtils.jsonStringToDocument
-import org.clulab.struct.Interval
+import org.parsertongue.TestUtils.jsonStringToDocument
+import org.parsertongue.struct.Interval
 
 
 class TestCrossSentencePatterns extends FlatSpec with Matchers {

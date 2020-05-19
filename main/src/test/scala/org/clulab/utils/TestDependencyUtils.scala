@@ -1,8 +1,8 @@
-package org.clulab.utils
+package org.parsertongue.utils
 
-import org.clulab.TestUtils.jsonStringToDocument
-import org.clulab.struct.{DirectedGraph, Interval}
-import org.clulab.utils.DependencyUtils._
+import org.parsertongue.TestUtils.jsonStringToDocument
+import org.parsertongue.struct.{ DirectedGraph, Interval }
+import org.parsertongue.utils.DependencyUtils._
 import org.scalatest._
 
 /**

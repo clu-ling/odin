@@ -1,8 +1,8 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
-import org.clulab.processors.{Document, Sentence}
-import org.clulab.odin.impl.TokenPattern
-import org.scalatest.{FlatSpec, Matchers}
+import org.parsertongue.{ Document, Sentence }
+import org.parsertongue.odin.impl.TokenPattern
+import org.scalatest.{ FlatSpec, Matchers }
 
 
 class TestNumericPatterns extends FlatSpec with Matchers {

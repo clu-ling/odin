@@ -1,8 +1,8 @@
-package org.clulab.odin
+package org.parsertongue.odin
 
 import java.io._
 import java.nio.charset.{ StandardCharsets, MalformedInputException }
-import org.clulab.odin._
+import org.parsertongue.odin._
 import org.scalatest._
 
 class TestExtractorEngine extends FlatSpec with Matchers {
